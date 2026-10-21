@@ -1,5 +1,8 @@
 The Art Of...
 =============
+Author: Nakshatra Dineshkaruna (Person who the blog is ment for)
+Created and Maintained by: Tanush Chamrolia
+
 Live site: https://thebalancesheet.netlify.app (rename in Netlify's
 site settings whenever you want a URL that matches the new name).
 Deploy: push to GitHub main -> Netlify builds and deploys automatically.
