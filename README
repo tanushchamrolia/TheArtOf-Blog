@@ -1,12 +1,36 @@
-The Art Of...
-=============
+# The Art Of... — Artist Portfolio & Journal
 Author: Nakshatra Dineshkaruna (Person who the blog is ment for)
 Created and Maintained by: Tanush Chamrolia
 
-Live site: https://thebalancesheet.netlify.app (rename in Netlify's
-site settings whenever you want a URL that matches the new name).
-Deploy: push to GitHub main -> Netlify builds and deploys automatically.
+**Live site:** theartof.netlify.app
 
+A portfolio and journal site I built for artist Nakshatra Dineshkaruna, who uses it to publish her artwork and journal entries.
+
+
+## What makes it interesting
+- **No-code editing:** every post, artwork, and line of text lives in a Google Sheet. She edits a row and the site updates on the next page load, with no redeploy and no code.
+- **Auto-deploy:** pushing to `main` on GitHub triggers a Netlify build.
+- **Contact form with no backend:** Netlify Forms handles submissions, with a honeypot field for spam.
+- **Safe fallbacks:** if a sheet row is missing, the page falls back to built-in text instead of breaking.
+
+**Stack:** HTML, CSS, vanilla JavaScript, Google Sheets (as the content source), Netlify (hosting + forms), GitHub
+
+## How I built it with AI
+Built with Claude through iterative prompting:
+I built this with Claude through iterative prompting, working from what Nakshatra wanted: her color scheme, 
+a clean and simple style, and a way to update the site herself without touching code. I described each piece in plain English, 
+tested it on the live site, and refined the prompts until the design matched her vision. My next step is rebuilding it in React.
+Right now the nav and footer are copied across seven HTML files, so one change means editing every page; React components would let me write each piece once and reuse it everywhere.
+---
+
+
+
+*This next part is made for Nakshatra's clarification*
+
+The Art Of...
+=============
+
+Live site: theartof.netlify.app
 FILES
 -----
 index.html            Landing page ("Enter Site")
