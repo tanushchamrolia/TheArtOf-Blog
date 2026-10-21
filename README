@@ -138,3 +138,7 @@ page -- no code changes required.
 Note: the form only works once it's actually deployed on Netlify --
 opening contact.html directly from your computer (or a plain local
 preview) won't submit anywhere, that's expected.
+
+
+
+#Vibecoded website using Claude, including majority of this read me.
